@@ -15,6 +15,7 @@
 		6305DE761DE084B300C2657C /* _048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE751DE084B300C2657C /* _048Tests.swift */; };
 		6305DE811DE084B300C2657C /* _048UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE801DE084B300C2657C /* _048UITests.swift */; };
 		6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE8F1DE1F78A00C2657C /* GameModel.swift */; };
+		6305DE931DE1F84200C2657C /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE921DE1F84200C2657C /* TileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6305DE801DE084B300C2657C /* _048UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _048UITests.swift; sourceTree = "<group>"; };
 		6305DE821DE084B300C2657C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6305DE8F1DE1F78A00C2657C /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		6305DE921DE1F84200C2657C /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6305DE5F1DE084B300C2657C /* 2048 */ = {
 			isa = PBXGroup;
 			children = (
+				6305DE911DE1F82300C2657C /* View */,
 				6305DE8E1DE1F76900C2657C /* Model */,
 				6305DE601DE084B300C2657C /* AppDelegate.swift */,
 				6305DE621DE084B300C2657C /* ViewController.swift */,
@@ -134,6 +137,14 @@
 				6305DE8F1DE1F78A00C2657C /* GameModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		6305DE911DE1F82300C2657C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6305DE921DE1F84200C2657C /* TileView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 			files = (
 				6305DE631DE084B300C2657C /* ViewController.swift in Sources */,
 				6305DE611DE084B300C2657C /* AppDelegate.swift in Sources */,
+				6305DE931DE1F84200C2657C /* TileView.swift in Sources */,
 				6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
