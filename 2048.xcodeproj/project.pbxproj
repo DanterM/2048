@@ -16,6 +16,7 @@
 		6305DE811DE084B300C2657C /* _048UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE801DE084B300C2657C /* _048UITests.swift */; };
 		6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE8F1DE1F78A00C2657C /* GameModel.swift */; };
 		6305DE931DE1F84200C2657C /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE921DE1F84200C2657C /* TileView.swift */; };
+		63B98F941DE286EE005FDFE3 /* ConrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B98F931DE286EE005FDFE3 /* ConrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6305DE821DE084B300C2657C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6305DE8F1DE1F78A00C2657C /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		6305DE921DE1F84200C2657C /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		63B98F931DE286EE005FDFE3 /* ConrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				6305DE921DE1F84200C2657C /* TileView.swift */,
+				63B98F931DE286EE005FDFE3 /* ConrollView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				6305DE631DE084B300C2657C /* ViewController.swift in Sources */,
 				6305DE611DE084B300C2657C /* AppDelegate.swift in Sources */,
 				6305DE931DE1F84200C2657C /* TileView.swift in Sources */,
+				63B98F941DE286EE005FDFE3 /* ConrollView.swift in Sources */,
 				6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,6 +541,7 @@
 				6305DE871DE084B300C2657C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6305DE881DE084B300C2657C /* Build configuration list for PBXNativeTarget "2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +550,7 @@
 				6305DE8A1DE084B300C2657C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6305DE8B1DE084B300C2657C /* Build configuration list for PBXNativeTarget "2048UITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +559,7 @@
 				6305DE8D1DE084B300C2657C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
