@@ -1,5 +1,5 @@
 //
-//  ConrollView.swift
+//  ControlView.swift
 //  2048
 //
 //  Created by 王震 on 2016/11/21.
@@ -58,4 +58,13 @@ class ControlView {
         label.text = title;
         label.font =  UIFont(name: "HelveticaNeue-Bold", size: 16)
         return label
+    }
+    
+    //    class func createImageView(name:String) -> UIImageView
+    //    {
+    //        let imageView = UIImageView()
+    //        imageView.image = UIImage(named: name)
+    //        return imageView
+    //    }
+    
 }
