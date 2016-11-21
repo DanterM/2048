@@ -87,6 +87,7 @@
 				6305DE5E1DE084B300C2657C /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		6305DE5E1DE084B300C2657C /* Products */ = {
 			isa = PBXGroup;
