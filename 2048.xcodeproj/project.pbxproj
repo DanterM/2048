@@ -20,6 +20,7 @@
 		63B98FA11DE3E220005FDFE3 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B98FA01DE3E220005FDFE3 /* ScoreView.swift */; };
 		63EF4F721DE3E3B700F63F2C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */; };
 		63EF4F741DE3E40600F63F2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF4F731DE3E40600F63F2C /* MainViewController.swift */; };
+		63EF4F761DE3E44D00F63F2C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF4F751DE3E44D00F63F2C /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		63B98FA01DE3E220005FDFE3 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		63EF4F731DE3E40600F63F2C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63EF4F751DE3E44D00F63F2C /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */,
 				63EF4F731DE3E40600F63F2C /* MainViewController.swift */,
+				63EF4F751DE3E44D00F63F2C /* SettingViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				6305DE931DE1F84200C2657C /* TileView.swift in Sources */,
 				63EF4F721DE3E3B700F63F2C /* MainTabBarViewController.swift in Sources */,
 				6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */,
+				63EF4F761DE3E44D00F63F2C /* SettingViewController.swift in Sources */,
 				63B98F961DE28A4A005FDFE3 /* ControlView.swift in Sources */,
 				63B98FA11DE3E220005FDFE3 /* ScoreView.swift in Sources */,
 				63EF4F741DE3E40600F63F2C /* MainViewController.swift in Sources */,
