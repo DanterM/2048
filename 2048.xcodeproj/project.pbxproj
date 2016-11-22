@@ -18,6 +18,7 @@
 		6305DE931DE1F84200C2657C /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305DE921DE1F84200C2657C /* TileView.swift */; };
 		63B98F961DE28A4A005FDFE3 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B98F951DE28A4A005FDFE3 /* ControlView.swift */; };
 		63B98FA11DE3E220005FDFE3 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B98FA01DE3E220005FDFE3 /* ScoreView.swift */; };
+		63EF4F721DE3E3B700F63F2C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6305DE921DE1F84200C2657C /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		63B98F951DE28A4A005FDFE3 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		63B98FA01DE3E220005FDFE3 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		6305DE5F1DE084B300C2657C /* 2048 */ = {
 			isa = PBXGroup;
 			children = (
+				63EF4F701DE3E38E00F63F2C /* Controllers */,
 				6305DE911DE1F82300C2657C /* View */,
 				6305DE8E1DE1F76900C2657C /* Model */,
 				6305DE601DE084B300C2657C /* AppDelegate.swift */,
@@ -152,6 +155,14 @@
 				63B98FA01DE3E220005FDFE3 /* ScoreView.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		63EF4F701DE3E38E00F63F2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63EF4F711DE3E3B700F63F2C /* MainTabBarViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				6305DE631DE084B300C2657C /* ViewController.swift in Sources */,
 				6305DE611DE084B300C2657C /* AppDelegate.swift in Sources */,
 				6305DE931DE1F84200C2657C /* TileView.swift in Sources */,
+				63EF4F721DE3E3B700F63F2C /* MainTabBarViewController.swift in Sources */,
 				6305DE901DE1F78A00C2657C /* GameModel.swift in Sources */,
 				63B98F961DE28A4A005FDFE3 /* ControlView.swift in Sources */,
 				63B98FA11DE3E220005FDFE3 /* ScoreView.swift in Sources */,
