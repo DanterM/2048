@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let rect = UIScreen.main.bounds
+        self.window = UIWindow(frame: rect)
+        self.window?.backgroundColor = UIColor.white
+        
+        let sign:Bool = UserDefaults.standard.bool(forKey: "FirstStartSign")
+        if(!sign){
+            UserDefaults.standard.set(true, forKey: "FirstStartSign")
+            let guideViewController = GuideViewController()
+            self.window!.rootViewController = guideViewController
+            let bestScore: Int = 0
+            UserDefaults.standard.set(bestScore, forKey: "BestScore")
+        }else
+        {
+            // 创建初始化控制器
+            let startVC = MainTabBarViewController()
+            self.window?.rootViewController = startVC
+        }
+        self.window!.makeKeyAndVisible()
+        
         return true
     }
 
